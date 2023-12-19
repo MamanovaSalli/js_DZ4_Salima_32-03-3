@@ -12,49 +12,7 @@ button.addEventListener('click', () => {
         document.querySelector('.age').innerHTML = data.age
     })
 })
-//
-// const persons = [
-//     {
-//         "name": "Mulan",
-//         "age": 25
-//     },
-//     {
-//         "name": "Mushu",
-//         "age": 120
-//     },
-//     {
-//         "name": "Li Shang",
-//         "age": 30
-//     },
-//     {
-//         "name": "Fa Zu",
-//         "age": 65
-//     },
-//     {
-//         "name": "Fa Li",
-//         "age": 55
-//     },
-//     {
-//         "name": "Grandma Fa",
-//         "age": 79
-//     },
-//     {
-//         "name": "Yo",
-//         "age": 25
-//     },
-//     {
-//         "name": "Ling",
-//         "age": 26
-//     },
-//     {
-//         "name": "Cheng Pa",
-//         "age": 26
-//     },
-//     {
-//         "name": "Khan",
-//         "age": 40
-//     }
-// ]
+
 
 const personsWrap = document.querySelector('.wrapper')
 
@@ -88,6 +46,4 @@ button.onclick = () => {
             personsWrap.append(personsCard)
         })
     }
-
-
 }
