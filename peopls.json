@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Mulan",
+    "age": 25,
+    "photo": "https://img03.rl0.ru/afisha/e780x-i/daily.afisha.ru/uploads/images/f/be/fbed0b30cc3d4218a10e3c08e5dfc008.jpg"
+  },
+  {
+    "name": "Mushu",
+    "age": 120
+  },
+  {
+    "name": "Li Shang",
+    "age": 30
+  },
+  {
+    "name": "Fa Zu",
+    "age": 65
+  },
+  {
+    "name": "Fa Li",
+    "age": 55
+  },
+  {
+    "name": "Grandma Fa",
+    "age": 79
+  },
+  {
+    "name": "Yo",
+    "age": 25
+  },
+  {
+    "name": "Ling",
+    "age": 26
+  },
+  {
+    "name": "Cheng Pa",
+    "age": 26
+  },
+  {
+    "name": "Khan",
+    "age": 40
+  }
+]
