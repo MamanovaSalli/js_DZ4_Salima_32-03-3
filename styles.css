@@ -14,9 +14,11 @@
     border: 1px solid;
     border-radius: 8px;
     background-color: #ec9eff;
+    text-align: center;
 }
 
 .personsCard img {
+    margin: auto;
     width: 100px;
     height: 100px;
     border-radius: 50%;

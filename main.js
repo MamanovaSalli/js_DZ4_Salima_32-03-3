@@ -1,17 +1,17 @@
 const button = document.querySelector('.wrapper')
 
-button.addEventListener('click', () => {
-    const xhr = new XMLHttpRequest()
-    xhr.open('GET', 'data.json')
-    xhr.setRequestHeader('Content-type', 'application/json')
-    xhr.send()
-
-    xhr.addEventListener('load', () => {
-        const data = JSON.parse(xhr.response)
-        document.querySelector('.name').innerHTML = data.name
-        document.querySelector('.age').innerHTML = data.age
-    })
-})
+// button.addEventListener('click', () => {
+//     const xhr = new XMLHttpRequest()
+//     xhr.open('GET', 'data.json')
+//     xhr.setRequestHeader('Content-type', 'application/json')
+//     xhr.send()
+//
+//     xhr.addEventListener('load', () => {
+//         const data = JSON.parse(xhr.response)
+//         document.querySelector('.name').innerHTML = data.name
+//         document.querySelector('.age').innerHTML = data.age
+//     })
+// })
 
 
 const personsWrap = document.querySelector('.wrapper')
@@ -42,8 +42,14 @@ button.onclick = () => {
                 personsCard.append(imgTag)
             }
 
-            personsCard.append(nameTag, ageTag)
+            const infoTag = document.createElement('p')
+            infoTag.setAttribute('class', 'personInfo')
+            infoTag.innerText = person.info
+
+            personsCard.append(nameTag, ageTag, infoTag)
             personsWrap.append(personsCard)
         })
     }
 }
+
+
